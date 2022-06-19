@@ -7,35 +7,33 @@
             background-color: rgb(7, 4, 4);
             color: white;
         }
-        .navelements {
-            float: right;
-            word-spacing: 15px;
-        }
-        .navelements ul li {
-            float: right;
-        }
         header{
-            background-color: red;
+            padding: 10px;
+            overflow:visible;
+            font-size:x-large;
+            word-spacing: 12px;
+        }
+        .navelements{
+            float: right;
+        }
+        li{
+            display: inline;
         }
         header img {
-            height: 40px;
-            width: 40px;
-            margin-left: 10px;
+            height: 3vh;
         }
-        .item4 {
+        .item4{
             background: linear-gradient(to right, rgb(55, 178, 231),rgb(25, 130, 235),rgb(15, 81, 223));
             border-radius: 3px;
             padding: 3px;
         }
-        .navelements ul li img {
-            width: 20px;
-            height: 20px;
-            border: 2px solid grey;
-            padding: 2px;
+        .item5{
+            border: 2px solid rgb(185, 174, 174);
+            padding: 3px;
         }
-        .item5 {
-            border: 2px solid grey;
+        .item6{
             padding: 2px;
+            border: 2px solid rgb(185, 174, 174);
         }
         .torque img {
             width: 130px;
@@ -61,7 +59,6 @@
             -webkit-background-clip: text;
             -webkit-text-fill-color: transparent;
             margin: auto;
-        
         }
         .line {
             display: flex;
@@ -112,10 +109,8 @@
             -webkit-background-clip: text;
             -webkit-text-fill-color: transparent;
         }
-        
         .features img{
             float: left;
-            /* margin: 2em,20em,1em,1em; */
             margin-right: 5em;
             margin-left: 1em;
             margin-bottom: 1.8em;
